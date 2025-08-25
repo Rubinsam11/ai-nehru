@@ -112,6 +112,18 @@ function App() {
   };
 
   return (
+<div className={`h-screen min-h-screen flex flex-col items-center justify-center transition-colors duration-300 ${isDarkMode ? 'bg-black' : 'bg-white'}`}
+    style={{
+    backgroundImage: "url('/nehru.jpg')",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }}
+>
+
+
+
+
 
       {/* 3D Logo - Center when no messages */}
       {messages.length === 0 && (
