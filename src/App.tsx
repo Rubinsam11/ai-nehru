@@ -240,7 +240,7 @@ function App() {
               )}
             </button>
           </div>
-        </div>
+       
 
         {/* Main Content */}
         <div className="flex-1 flex flex-col justify-end">
@@ -249,7 +249,7 @@ function App() {
             className={`
               flex flex-col space-y-2 overflow-y-auto
               px-2 sm:px-4
-              lg:px-12 xl:px-16
+              lg:px-10 xl:px-14
             `}
             style={{ maxHeight: "calc(100vh - 180px)", minHeight: 100 }}
           >
@@ -278,6 +278,7 @@ function App() {
                   {msg.text}
                 </div>
               </div>
+ </div>
             ))}
             <div ref={chatEndRef} />
           </div>
