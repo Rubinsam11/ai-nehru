@@ -12,6 +12,7 @@ interface Message {
   timestamp: number;
 }
 
+
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [inputActive, setInputActive] = useState(false);
