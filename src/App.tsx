@@ -112,15 +112,12 @@ function App() {
   };
 
   return (
-<div className={`h- 700 min-h-screen flex flex-col items-center justify-center transition-colors duration-300 ${isDarkMode ? 'bg-black' : 'bg-white'}`}
-    style={{
-    backgroundImage: "url('/nehru.jpg')",
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat'
-  }}
->
 
+
+<div
+  className={`min-h-[400px] h-auto w-full flex flex-col items-center justify-center transition-colors duration-300 ${isDarkMode ? 'bg-black' : 'bg-white'} bg-no-repeat bg-center bg-contain`}
+  style={{ backgroundImage: "url('/nehru.jpg')" }}
+>
 
 
 
