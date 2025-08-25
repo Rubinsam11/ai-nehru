@@ -122,6 +122,7 @@ function App() {
 
 
 
+
       {/* 3D Logo - Center when no messages */}
       {messages.length === 0 && (
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
