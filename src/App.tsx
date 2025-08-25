@@ -117,7 +117,7 @@ function App() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
-        height: '300px'   
+        height: '900px'   
 
       }}
     >
