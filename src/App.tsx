@@ -117,6 +117,8 @@ function App() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
+        height: '300px'   
+
       }}
     >
       {/* 3D Logo - Center when no messages */}
