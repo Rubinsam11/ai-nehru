@@ -114,10 +114,6 @@ function App() {
   return (
 
 
-<div
-  className={`min-h-full h-auto w-full flex flex-col items-center justify-center transition-colors duration-300 ${isDarkMode ? 'bg-black' : 'bg-white'} bg-no-repeat bg-center bg-contain`}
-  style={{ backgroundImage: "url('/nehru.jpg')" }}
->
 
 
 
